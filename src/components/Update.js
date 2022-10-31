@@ -13,7 +13,7 @@ function Update() {
       marks: marks,
     };
     console.log(user);
-    axios.put(`http://localhost:3001/data/${id}`, { name, marks }).then(
+    axios.put(`http://localhost:8080/data/${id}`, { name, marks }).then(
       (response) => {
         //  data = response.data
         // setStudent(data)

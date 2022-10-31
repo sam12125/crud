@@ -14,7 +14,7 @@ function Create() {
     };
     console.log(user);
 
-    axios.post("http://localhost:3001/data", { name, marks }).then((res) => {
+    axios.post("http://localhost:8080/data", { name, marks }).then((res) => {
       console.log(res);
       window.location.reload();
       //   console.log(res.data);

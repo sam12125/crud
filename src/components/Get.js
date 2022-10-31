@@ -7,7 +7,7 @@ function Get() {
   let data;
 
   const fetchData = () => {
-    axios.get("http://localhost:3001/data").then(
+    axios.get("http://localhost:8080/data").then(
       (response) => {
         data = response.data;
         // console.log(response.data.items)

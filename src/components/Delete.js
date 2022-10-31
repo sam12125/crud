@@ -7,7 +7,7 @@ function Delete() {
 
   const deleteData = () => {
     console.log(id);
-    axios.delete(`http://localhost:3001/data/${id}`).then((res) => {
+    axios.delete(`http://localhost:8080/data/${id}`).then((res) => {
       console.log(res);
       window.location.reload();
       //   console.log(res.data);
